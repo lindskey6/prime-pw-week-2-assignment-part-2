@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable and set name to 'Dane' as a string.
+// We create a conditional to check if name and value equals to variable. (in this case it does not;  (name === 'Mary'); )
+// Variable (name === 'Mary') then console.log will state 'Hi Mary!'
+// Variable does not equal to mary, (var Name = 'Dane") therefore we console.log 'How do you do?'
 
 //CODE
 /*
@@ -45,13 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// setting variable to '123' as a string
+// if variable matches type and value, code then will multiply * 2, then then we return with 'super'
+// if code is less than 250, we return with 'duper'
+// Then console.log will return the secret of 'super' or 'duper' depending on variable result after mutlipled by * 2
 
 //CODE
 /*
+
 let secret;
 
 let code = 123;
@@ -70,10 +71,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make 3 variables isStuent = true; , age = 34; , zip = 55407; as a string
+// if student is true and zip is less than 8000, then we console.log ('You are on the West Coast!')
+// if else student is false and age is greater than 30, we then console.log ('What are you hobbies?')
+// if student is true, we console log. ('Welcome to prime!') along with ('How about the weather?')
 
 //CODE
 /*
@@ -130,7 +131,9 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - colorOne = 'red'; - colorOne should be 'blue'
 let colorOne = 'red';
+// FIX - colorTwo = 'blue'; - colorTwo should be 'red'
 let colorTwo = 'blue';
 let mix = true;
 
@@ -147,6 +150,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - if (temp < 39) || time is <= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,10 +164,10 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+//FIX if (age <= minAge)
 if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
 }
 */
-
