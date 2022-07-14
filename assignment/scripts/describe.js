@@ -6,6 +6,28 @@
 // (Don't just say 'we console log the variable' -- instead say something like 'we console log 'yes'')
 
 
+--------------------------------------------------------------------------------------------------------------------------
+
+// - Questions to review: 2, 4, 5
+
+--------------------------------------------------------------------------------------------------------------------------
+
+// - Things to practice on : 
+
+// 'keyboard shortcuts', 
+// '!ask Questions', 
+// '(console.log), test test test!
+// 'readable structure',
+
+--------------------------------------------------------------------------------------------------------------------------
+
+// - Questions to ask:
+
+// "set an if conditonal to check" <- // to my understanding, is a conditonal and statement the same thing? //,
+// "",
+--------------------------------------------------------------------------------------------------------------------------
+
+
 // 0. WRITE YOUR DESCRIPTION HERE
 // //EXAMPLE. We make a variable called number and set it to 1 as a number.
 // Then we increment the number variable. Number is now 2.
@@ -72,12 +94,16 @@ console.log(secret)
 */
 
 
+// - Things to practice on : 
+
+// 'keyboard shortcuts', 'ask ! Questions', 
+// '(console.log) is your best freind!' 
 
 
-// - Things to practice on : 'keyboard shortcuts', 'ask ! Questions', //
 
-// - Questions to ask: '', //
+// - Questions to ask:
 
+// "set an if conditonal to check" <- * to my understanding, is a conditonal and statement the same thing? *
 
 
 
@@ -86,11 +112,13 @@ console.log(secret)
 // [ ] set a variable to check if age equals to 34;
 // [ ] set a number variable to check if zip equals to 55407;
 
-// [ ] set an if statement to check if student euqals to true and zip code is less than 8000
-//      console.log to see if statement is true, return (`
-// [ ] set  a
+// [ ] create an if conditonal, if student euqals to true and zip code is less than 8000, console `You're a student on the West Coast!`
 
+// [ ] create an if else conditional, if student is false and less than 30 years old, console `what are your hobbies`?
 
+// [ ] create an if else conditonal, if student is true, console 'Welcome to Prime!'
+
+// [ ] create an else conditional, console 'How about the weather?'
 
 //CODE
 /*
@@ -99,24 +127,18 @@ let age = 34;
 let zip = 55407;
 
 if (isStudent === true && zip > 80000 ) {
-              // console.log(`You're a student on the West Coast!`);
-} else if (isStudent === false || age < 30) {
-                     // console.log('What are your hobbies?');
-} else if (isStudent === true) {
-                     //console.log('Welcome to Prime!');
-} else {
+  console.log(`You're a student on the West Coast!`);
+} 
+
+else if (isStudent === false || age < 30) {
+  console.log('What are your hobbies?');
+}
+else if (isStudent === true) {
+   //console.log('Welcome to Prime!');
+}
+else {
   console.log('How about the weather?')
 }
-
-<h2>old answers<h2/p>
- <p> if student is true and zip is less than 8000, then we console.log ('You are on the West Coast!') </p>
- <p> if else student is false and age is greater than 30, we then console.log ('What are you hobbies?') </p>
- <p> if student is true, we console log. ('Welcome to prime!') along with ('How about the weather?') </p>
-
-*/
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -151,13 +173,11 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-// FIX - colorOne = 'red'; - colorOne should be 'blue'
-let colorOne = 'red';
-// FIX - colorTwo = 'blue'; - colorTwo should be 'red'
-let colorTwo = 'blue';
-let mix = true;
 
+/*
+let colorOne = 'red';     // FIX - colorOne = 'red'; - colorOne should be 'blue'
+let colorTwo = 'blue';    // FIX - colorTwo = 'blue'; - colorTwo should be 'red'
+let mix = true;
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -167,15 +187,7 @@ if (mix === true) {
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
 
-/*
-let temp = 40;
-const time = 4;
 
-// FIX - if (temp < 39) || time is <= 4)
-if (temp > 39 || time >= 4) {
-  console.log('throw away the food!');
-}
-*/
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -185,8 +197,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-//FIX if (age <= minAge)
-if(minAge <= age) {
+
+if(minAge <= age) {     //FIX if (age <= minAge)   
   console.log('no entry');
 } else {
   console.log('enter');
