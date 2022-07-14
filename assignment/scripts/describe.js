@@ -71,16 +71,26 @@ console.log(secret)
 
 */
 
-// - Things to practice on : 'keyboard shortcuts', 'ask ! Questions', 
+
+
+
+// - Things to practice on : 'keyboard shortcuts', 'ask ! Questions', //
+
+// - Questions to ask: '', //
+
+
+
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // [ ] set a variable to check if isStudent equals to true or false;
 // [ ] set a variable to check if age equals to 34;
-// [ ] set a number variable to check if zip equals to 55407;  <-- question. this is where logic is applied?
+// [ ] set a number variable to check if zip equals to 55407;
 
-// if student is true and zip is less than 8000, then we console.log ('You are on the West Coast!')
-// if else student is false and age is greater than 30, we then console.log ('What are you hobbies?')
-// if student is true, we console log. ('Welcome to prime!') along with ('How about the weather?')
+// [ ] set an if statement to check if student euqals to true and zip code is less than 8000
+//      console.log to see if statement is true, return (`
+// [ ] set  a
+
+
 
 //CODE
 /*
@@ -89,14 +99,19 @@ let age = 34;
 let zip = 55407;
 
 if (isStudent === true && zip > 80000 ) {
-  console.log(`You're a student on the West Coast!`);
+              // console.log(`You're a student on the West Coast!`);
 } else if (isStudent === false || age < 30) {
-  console.log('What are your hobbies?');
+                     // console.log('What are your hobbies?');
 } else if (isStudent === true) {
-  console.log('Welcome to Prime!');
+                     //console.log('Welcome to Prime!');
 } else {
   console.log('How about the weather?')
 }
+
+<h2>old answers<h2/p>
+ <p> if student is true and zip is less than 8000, then we console.log ('You are on the West Coast!') </p>
+ <p> if else student is false and age is greater than 30, we then console.log ('What are you hobbies?') </p>
+ <p> if student is true, we console log. ('Welcome to prime!') along with ('How about the weather?') </p>
 
 */
 
