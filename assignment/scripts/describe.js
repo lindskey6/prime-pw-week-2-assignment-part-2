@@ -95,7 +95,7 @@ console.log(secret)
 
 // 3. WRITE YOUR DESCRIPTION HERE
 // [ ] set a variable to check if isStudent equals to true or false;
-// [ ] set a variable to check if age equals to 34;
+// [ ] set a number variable to check if age equals to 34;
 // [ ] set a number variable to check if zip equals to 55407;
 
 // [ ] create an if conditonal, if student euqals to true and zip code is less than 8000, console `You're a student on the West Coast!`
