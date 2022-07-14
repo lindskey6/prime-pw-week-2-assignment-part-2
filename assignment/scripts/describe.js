@@ -29,14 +29,15 @@ if (number >= 2) {
 // We make a variable and set name to 'Dane' as a string.
 // We create a conditional to check if name and value equals to variable. (in this case it does not;  (name === 'Mary'); )
 // Variable (name === 'Mary') then console.log will state 'Hi Mary!'
-// Variable does not equal to mary, (var Name = 'Dane") therefore we console.log 'How do you do?'
+// Variable does not equal to mary, (var Name = 'Dane"), 
+// We console.log 'How do you do?'
 
 //CODE
 /*
 let name = 'Dane';
 
 if (name === 'Mary') {
-  console.log('Hi, Mary!');
+
 } else {
   console.log('How do you do?');
 }
@@ -70,8 +71,13 @@ console.log(secret)
 
 */
 
+// - Things to practice on : 'keyboard shortcuts', 'ask ! Questions', 
+
 // 3. WRITE YOUR DESCRIPTION HERE
-// We make 3 variables isStuent = true; , age = 34; , zip = 55407; as a string
+// [ ] set a variable to check if isStudent equals to true or false;
+// [ ] set a variable to check if age equals to 34;
+// [ ] set a number variable to check if zip equals to 55407;  <-- question. this is where logic is applied?
+
 // if student is true and zip is less than 8000, then we console.log ('You are on the West Coast!')
 // if else student is false and age is greater than 30, we then console.log ('What are you hobbies?')
 // if student is true, we console log. ('Welcome to prime!') along with ('How about the weather?')
