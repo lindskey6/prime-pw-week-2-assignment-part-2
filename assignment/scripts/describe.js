@@ -93,20 +93,6 @@ console.log(secret)
 
 */
 
-
-// - Things to practice on : 
-
-// 'keyboard shortcuts', 'ask ! Questions', 
-// '(console.log) is your best freind!' 
-
-
-
-// - Questions to ask:
-
-// "set an if conditonal to check" <- * to my understanding, is a conditonal and statement the same thing? *
-
-
-
 // 3. WRITE YOUR DESCRIPTION HERE
 // [ ] set a variable to check if isStudent equals to true or false;
 // [ ] set a variable to check if age equals to 34;
